@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+nav{
+    height: 6vw;
+    width:100%;
+    font-size: 4vw;
+    color: rgb(90, 2, 130);
+    background-color: aquamarine;
+    font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/******* utility classes******* */
+
+.br{
+border-right: 2px solid rgb(97, 43, 144) !important;
+/* border-left:white;
+border-top:white;
+border-bottom:white; */
+}
+
+.bl{
+border-left: 2px solid rgb(97, 43, 144)!important ;
+/* border-right:white;
+border-top:white;
+border-bottom:white; */
+}
+
+.bt{
+border-top: 2px solid rgb(97, 43, 144) !important;
+/* border-left:white;
+border-right:white;
+border-bottom:white; */
+}
+
+.bb{
+border-bottom: 2px solid rgb(97, 43, 144) !important;
+  /*border-left:white;
+border-top:white;
+border-right:white; */
+}
+
+
+
+.roboto-slab {
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hide{
+  visibility: hidden;
+
+}
+
+#new-game{
+  position: static;
+ 
+  padding: 10px;
+}
+/*================== utilityclasse========================= */
+  .buttons{
+  
+    border: white solid ; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 1rem rgba(255, 255, 255, 0.304);
+    background-color: white;
+  }
+  .buttons:hover{
+    transition: all 0.2s ease-in;
+    background-color: rgba(137, 43, 226, 0.119);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+  
+  }
+  .container h1{
+    font-size: 7.5vh;
+    color:rgb(90, 2, 130) ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .box{
+    display: grid;
+    grid-template-columns: repeat(3,14vw);
+    grid-template-rows: repeat(3,15vh);
+    
+  }
+  
+  
+  .resetButton{
+    padding: 5px;
+    border: 2px solid rgba(0, 238, 255, 0.288);
+    border-radius: 10px;
+    color:rgb(90, 2, 130) ;
+    font-weight: 550;
+    font-family: "Roboto Slab", serif;
+    margin-top: 5vh;
+    
+  }.resetButton:hover{
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 0px 1rem}
+
+   /* resetBUTTON designig */
+    .front-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+font-size: 3rem;
+color: red;
+    
+   } 
+   .result-Display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  
+   
